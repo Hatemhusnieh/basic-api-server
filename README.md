@@ -11,9 +11,9 @@
 1. run the app
 
 ## Deploy, Run and Test
-- [test report]()
-- [deployed link]()
-- [Pull Request]()
+- [test report](https://github.com/Hatemhusnieh/basic-api-server/actions)
+- [deployed link](https://hatem-basic-api-server.herokuapp.com/)
+- [Pull Request](https://github.com/Hatemhusnieh/basic-api-server/commit/ceb9f36d46d4d04dcd0310069f9ae14e0baa9cbf)
 
 ### Setup  
 #### `.env` requirement
@@ -24,14 +24,18 @@
   1. `npm start`
   1. `nodemon`
 - Endpoint: `/api/v1/games`
-  - returns Object
-    ![Object]()
+  - returns Object  
+
+    ![Object](img/res1.png)  
+
 - Endpoint: `/api/v1/players`
-  - returns Object
-    ![Object]()  
+  - returns Object  
+
+    ![Object](img/res2.png)  
+      
 #### Test 
 - Unit test: `npm run test`
 - Lint test: `npm run lint`
 
 ### UML:  
-![uml]()
+![uml](img/basic-api-server.jpg)
