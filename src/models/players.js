@@ -18,7 +18,8 @@ class Players {
   create(obj){
     const record = {
       id: uuidv4(),
-      data: obj,
+      name: obj.name,
+      games: obj.games,
     };
     this.playersDb.push(record);
     return this.playersDb;
@@ -27,7 +28,8 @@ class Players {
   update(id, obj){
     for(let i=0; i<this.playersDb.length; i++){
       if(this.playersDb[i].id === id){
-        this.playersDb[i].data = obj;
+        this.playersDb[i].name = obj.name;
+        this.playersDb[i].games = obj.games;
         return this.playersDb[i];
       }
     }
